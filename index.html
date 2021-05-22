@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<!-- La etiqueta /meta/ provee información para el navegador -->
+		<meta charset="utf-8">
+		
+		<!-- Titulo de página -->
+		<title>Recetario</title>
+			
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" href="style/estilos.css">
+		
+		<link rel="icon" href="images/icono.ico">
+		
+		
+		
+	
+	</head>
+	
+	<body>
+   
+		<div class='contenedor_general'> </div>
+		
+		<header> 
+		
+			<h1>El Recetario<h1> <span>Las mejores recetas para elegir</span>
+			
+		
+		
+			<div class="menu">
+
+				<div class="contenedor" onclick="location.href='index.html'">
+					<img class="icon" src="images/home.png">
+					<p class="texto">Home</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='pastas.html'">
+					<img class="icon" src="images/pasta.png">
+					<p class="texto">Pastas</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='tartas.html'">
+					<img class="icon" src="images/tarta.png">
+					<p class="texto">Tartas</p>
+				</div>
+				
+				<div class="contenedor" onclick="location.href='empanadas.html'">
+					<img class="icon" src="images/empanada.png">
+					<p class="texto">Empanadas</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='postres.html'">
+					<img class="icon" src="images/postre.png">
+					<p class="texto">Postres</p>
+				</div>
+				
+				
+			</div>
+			
+			
+		</header>
+		
+		
+		<div class="bloque-receta" >
+			<div class="texto">
+				<p><h2>Bienvenidos</h2>
+				Si necesitas ideas para el día a día o quieres preparar un plato especial para un día importante, aquí tienes todo lo que necesitas. Navega por nuestras recetas de forma rápida y encontrarás comidas deliciosas.
+				No hace falta ser un experto para dejarse llevar por estos placeres culinarios. Dentro de cada receta encontrarás todos los ingredientes que necesitas para preparar el plato, así como sus cantidades exactas.
+				Seguido de esto, cómo preparar la receta paso a paso para que no pierdas el hilo en ningún momento. También incorporamos videos en muchas de nuestras recetas para que puedas ver a la perfección cómo es el proceso de preparación.
+				No pienses que hace falta ser un chef para animarse a cocinar las recetas que te presentamos a continuación. Hemos preparado cada una, con todo nuestro cariño y aportando toda la información necesaria para que los recién iniciados puedan desenvolverse.
+				Recetas de carnes, ensaladas, pastas, pizzas, sopas, postres y mucho más a un solo clic. No lo pienses más y atrévete a preparar los platos que te presentamos, comprobarás que están deliciosos y harás que tus comensales queden boquiabiertos.
+				Si quieres disfrutar de más funcionalidades, regístrate en nuestra web con tu correo y podrás recibir informacion exclusiva ¡Adelante!
+				</p>
+			</div>
+			
+			<div class="multi">
+				<div id="slider">
+					<a href="pasta.html"><img src="images/pasta.jpg"></a>
+					
+				</div>
+				<!-- botones que controlan el slider -->
+				<button class="prew fa fa-chevron-left" onclick="prewImage()"></button>
+				<button class="next fa fa-chevron-right" onclick="nextImage()"></button>
+				
+				<script src="js/javascript.js"></script>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+  
+		<div class="bloque-wide">
+		
+			<div class="izquierdo">
+				<img src="images/recetario.png" alt="Recetario en papel con cubiertos">
+			</div>
+		
+			<div class="derecho">
+				<h2 class= "formulario">Suscripción</h2>
+				
+				<form id="formulario" action="html/form.html">
+					<!-- La página que realiza la acción sobre el formulario se especifica en el atributo /action/ -->
+					<input type="email" name="email" placeholder="Ingresá tu email" >
+					<input type="submit" value="Enviar">
+					<p class="error"><b>Por favor completá tu e-mail</b></p>
+				</form>
+				<p class="formulario"><small>Suscribite a nuestra lista para recibir:</small></p>
+				
+				<ul class="formulario">
+					<li>Recetas nuevas</li>
+					<li >Tips</li>
+					<li>y mucho más</li>
+				</ul>
+			
+			</div>
+		</div>
+		
+		
+		
+		
+		<footer>
+			Derechos Reservados &copy; 2021 <br>
+			Diseñado por: Cofre Flavia <br>
+			Contacto: 
+		</footer>
+		
+		
+
+		
+		
+		
+		
+	</body>
+</html>
+<!--https://fonts.google.com/specimen/Cabin+Sketch?selection.family=Cabin+Sketch ; para otras fuentes https://fonts.google.com/ ; para efectos: https://developers.google.com/fonts/docs/getting_started -->

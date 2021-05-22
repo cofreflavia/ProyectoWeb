@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<!-- La etiqueta /meta/ provee información para el navegador -->
+		<meta charset="utf-8">
+		
+		<!-- Titulo de página -->
+		<title>Pastas</title>
+			
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" href="style/estilos.css">
+		
+		<link rel="icon" href="images/icono.ico">
+		
+		
+		
+	
+	</head>
+	
+	<body>
+   
+		<div class='contenedor_general'> </div>
+		
+		<header> 
+		
+			<h1>El Recetario<h1> <span>Las mejores recetas para elegir</span>
+			
+			<div class="menu">
+
+				<div class="contenedor" onclick="location.href='index.html'">
+					<img class="icon" src="images/home.png">
+					<p class="texto">Home</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='pastas.html'">
+					<img class="icon" src="images/pasta.png">
+					<p class="texto">Pastas</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='tartas.html'">
+					<img class="icon" src="images/tarta.png">
+					<p class="texto">Tartas</p>
+				</div>
+				
+				<div class="contenedor" onclick="location.href='empanadas.html'">
+					<img class="icon" src="images/empanada.png">
+					<p class="texto">Empanada</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='postres.html'">
+					<img class="icon" src="images/postre.png">
+					<p class="texto">Postres</p>
+				</div>
+				
+				
+			</div>
+			
+		
+			
+			
+		</header>
+		
+		
+		
+		<div class="bloque-receta">
+
+			<div class= "video-responsive">
+				<iframe src="https://www.youtube.com/embed/2Lea9Yho554" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			
+			<div class="texto" >
+				<h1>Ravioles de espinaca y ricotta</h1>
+				<b>Ingredientes </b>
+				<ul>
+					<li> Masa:
+						<ul>
+							<li> 2 huevos
+							<li> 200gr harina 
+						</ul>
+					<li> Relleno:
+						<ul>
+							<li> 2 tazas de espinaca cocida y picada
+							<li> 1/2 taza de queso parmesano
+							<li> pizca de nuez moscada
+							<li> pimienta
+							<li>1 yema
+						</ul>
+					<li> Para freir:
+						<ul>
+							<li> mantequilla
+							<li> salvia
+						</ul>
+	 
+				</ul>
+			
+			</div>
+		
+		</div>	
+		
+		
+		
+  
+		<div class="bloque-wide">
+		
+			<div class="izquierdo">
+				<!-- El atributo /alt/ muestra el texto que se verá cuando la imagen no se pudo cargar -->
+				<img src="images/recetario.png" alt="Recetario en papel con cubiertos">
+			</div>
+		
+			<div class="derecho">
+				<h2 class= "formulario">Suscripción</h2>
+				
+				<form id="formulario" action="html/form.html">
+					<!-- La página que realiza la acción sobre el formulario se especifica en el atributo /action/ -->
+					<input type="email" name="email" placeholder="Ingresá tu email" >
+					<input type="submit" value="Enviar">
+					<p class="error"><b>Por favor completá tu e-mail</b></p>
+				</form>
+				<p class="formulario"><span>Suscribite a nuestra lista para recibir:</span></p>
+				
+				<ul class="formulario">
+					<li>Recetas nuevas</li>
+					<li >Tips</li>
+					<li>y mucho más</li>
+				</ul>
+			
+			</div>
+		</div>
+		
+		
+		
+		
+		<footer>
+			Derechos Reservados &copy; 2021 <br>
+			Diseñado por: Cofre Flavia <br>
+			Contacto: 
+		</footer>
+		
+		
+
+		
+		
+		
+		
+	</body>
+</html>

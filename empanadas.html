@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+	<head>
+		<!-- La etiqueta /meta/ provee información para el navegador -->
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+ 		<style>
+		@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+		</style>
+		<!--Titulo de página -->
+		<title>Empanadas</title>
+			
+		<!-- Estilos CSS -->
+		<link rel="stylesheet" href="style/estilos.css">
+		
+		<!--icono -->
+		<link rel="icon" href="images/icono.ico">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		
+	</head>
+	
+	<body>
+	
+		<!-- TECNICAMENTE ESTO NO IRIA <img class="img-fluid" src="comidaFondo.jpg" alt="fondo"> -->
+		
+		<div class="container"> <!-- container es del estilo de bootstrap-->
+			<div class='contenedor_general'> </div>
+
+			<header>
+			
+				<h1>Recetario<h1>
+				<span>Las mejores recetas para elegir</span>
+				
+				<div class="menu">
+
+				<div class="contenedor" onclick="location.href='index.html'">
+					<img class="icon" src="images/home.png">
+					<p class="texto">Home</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='pastas.html'">
+					<img class="icon" src="images/pasta.png">
+					<p class="texto">Pastas</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='tartas.html'">
+					<img class="icon" src="images/tarta.png">
+					<p class="texto">Tartas</p>
+				</div>
+				
+				<div class="contenedor" onclick="location.href='empanadas.html'">
+					<img class="icon" src="images/empanada.png">
+					<p class="texto">Empanada</p>
+				</div>
+
+				<div class="contenedor" onclick="location.href='postres.html'">
+					<img class="icon" src="images/postre.png">
+					<p class="texto">Postres</p>
+				</div>
+				
+				
+			</div>
+				
+			</header>
+			
+			
+			<div class="row">
+				<div class="col-md-8">
+				
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/EGJr4j_-uQA" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		
+				</div>
+			
+				<div class="col-md-4">
+					<h3 class="my-3"><p class="pasos">Preparación</p></h3>
+					
+					<article>
+						<p class="pasos">						
+							Para preparar las empanadas árabes picar en el vaso procesador de la Picplus la cebolla y el ajo. Luego rehogarlos en aceite.
+							Para el relleno, incorporar en el vaso procesador nuevamente, la carne, el jugo de limón, la cebolla y el ajo salteados, los tomates, la sal, la pimienta, el pimentón y el aji molido. Picar y mezclar.
+							Armar las empanadas y colocarlas en las bandejas del horno. Una vez acomodadas hornearlas durante 20 minutos a 230º.
+						</p>
+					</article>
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="bloque-wide">
+					<div class="col-xs 6 col-sm-6 col-md-6 col-lg-6">
+						
+						<!-- El atributo /alt/ muestra el texto que se verá cuando la imagen no se pudo cargar -->
+						<img class="img-responsive" src="images/recetario.png" width="420" height="420" alt="Recetario en papel con cubiertos">
+					
+					</div>
+		
+					<div class="row">
+						
+					<div class="col-xs 6 col-sm-6 col-md-6 col-lg-6">
+						<h2>Suscripción</h2>
+						
+						<div id="errormessage"></div>
+						
+						<form action="" method="post" role="form" class="contactForm">
+							<div class="form-group">
+								<input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email" data-rule="email" data-msg="Por favor completá tu e-mail" />
+								<div class="validation"></div>
+							</div>
+						</form>
+						<p class="formulario"><small>Suscribite a nuestra lista para recibir:</small></p>
+						<ul >
+							<li><p class="formulario">Recetas nuevas</p></li>
+							<li >Tips</li>
+							<li>y mucho más</li>
+						</ul>
+					</div>
+					<div class="col-xs 6 col-sm-6 col-md-6 col-lg-6">
+						<button type="submit" class="btn btn-primary">Enviar</button>
+							
+						</div>
+					</div>
+			<!-- /.col -->
+				</div>
+			</div>
+		<!-- /.row -->
+		</div>
+		
+		<footer class="py-5 bg-dark">
+			<div class="container">
+				<p class="m-0 text-center text-black">Derechos Reservados &copy; 2021 <br>
+				Diseñado por: Cofre Flavia <br>
+				Contacto:
+				</p>
+			</div>
+		</footer>
+		
+		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
